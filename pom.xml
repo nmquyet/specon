@@ -16,6 +16,13 @@
         <hibernate.version>4.3.8.Final</hibernate.version>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>vng</id>
+            <url>http://ftp.myplus.vn/maven</url>
+        </repository>
+    </repositories>
+
     <dependencyManagement>
         <dependencies>
             <!-- Import dependency management for Spring Boot -->
